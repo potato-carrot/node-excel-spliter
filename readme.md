@@ -15,9 +15,9 @@ $ npm install node-excel-spliter
 ```js
 const spliter = require("node-excel-spliter");
 spliter.run({
-  input: { path: "/Users/hanhaotian/Desktop/测试.xlsx" },
+  input: { path: "/Users/xxx/Desktop/测试.xlsx" },
   output: {
-    path: "/Users/hanhaotian/Desktop/output",
+    path: "/Users/xxx/Desktop/output",
     outputType: "sheets",
     actions: {
       子表1: {
@@ -82,6 +82,17 @@ spliter.run({
   },
 });
 ```
+
+## Demo 效果演示
+
+![image](./screenshots/原始excel截图.jpg)
+原始 Excel 数据
+
+![image](./screenshots/脚本执行过程截图.jpg)
+脚本执行的过程
+
+![image](./screenshots/分割后的excel截图.jpg)
+按条件查询并分割后的 Excel
 
 ## Configs Detail 配置参数说明
 

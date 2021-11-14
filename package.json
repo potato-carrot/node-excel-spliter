@@ -1,7 +1,7 @@
 {
   "name": "node-excel-spliter",
-  "version": "1.0.0",
-  "description": "根据自定义条件，批量拆解Excel表格的NodeJS小工具",
+  "version": "1.0.2",
+  "description": "根据自定义条件查询、拆解Excel表格，并生成新Excel的NodeJS工具",
   "license": "ISC",
   "repository": "https://github.com/potato-carrot/node-excel-spliter",
   "main": "index.js",
@@ -16,7 +16,8 @@
     "excel",
     "nodejs",
     "split",
-    "file"
+    "file",
+    "node-xlsx"
   ],
   "dependencies": {
     "ora": "^5.0.0",
