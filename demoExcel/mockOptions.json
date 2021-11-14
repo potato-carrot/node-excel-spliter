@@ -1,9 +1,10 @@
 {
   "input": {
-    "name": "测试",
+    "path": "/Users/xxx/Desktop/测试.xlsx",
     "sheet": "Sheet1"
   },
   "output": {
+    "path": "/Users/xxx/Desktop/output",
     "outputType": "sheets",
     "actions": {
       "子表1": {
