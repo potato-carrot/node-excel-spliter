@@ -1,7 +1,7 @@
 {
-  "name": "test-excel",
+  "name": "node-excel-spliter",
   "version": "1.0.0",
-  "description": "",
+  "description": "根据自定义条件拆解Excel表格的NodeJS小工具",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ora": "^5.0.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
     "node-xlsx": "^0.17.1"
   }
 }
